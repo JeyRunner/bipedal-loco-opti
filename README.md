@@ -8,20 +8,20 @@ The step timing is optimized jointly with the stepping behaviour.
 We base our implementation on [Casadi](https://web.casadi.org/), which allows for automatic differentiation of constraints. 
 This way, additional constraints can be easily added without the need of manually defining Jacobians.
 We add additional constrains for motion smoothness and for limiting accelerations.
-Furthermore, periodicity of optimized trajectories can be enforced, which produces perfectly looping motions.
+Furthermore, we allow to enforce periodicity of optimized trajectories, which produces perfectly looping motions.
 For dataset generation, optimized motions parameters can be serialized to yaml files.
 
 The primary focus if this library is to generate smooth reference locomotion datasets which can be used in downstream learning tasks (such as RL with imitation learning).
 
 
-### Trajectory Optimization Combined with IK
+## Trajectory Optimization Combined with IK
 The optimized motions can be converted with inverse kinematics to joint trajectories.
 In the following we show an example of the Bolt bipedal robot walking backwards, 
 where we visualize IK joint trajectory of the motions optimized with this library.
 ![bolt_opti_ik.webp](img/bolt_opti_ik.webp)
 
 
-### Usage
+## Usage
 Run the biped example application:
 ```bash
 uv sync
