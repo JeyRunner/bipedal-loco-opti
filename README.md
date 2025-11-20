@@ -13,6 +13,14 @@ For dataset generation, optimized motions parameters can be serialized to yaml f
 
 The primary focus if this library is to generate smooth reference locomotion datasets which can be used in downstream learning tasks (such as RL with imitation learning).
 
+
+### Trajectory Optimization Combined with IK
+The optimized motions can be converted with inverse kinematics to joint trajectories.
+In the following we show an example of the Bolt bipedal robot walking backwards, 
+where we visualize IK joint trajectory of the motions optimized with this library.
+![bolt_opti_ik.webp](img/bolt_opti_ik.webp)
+
+
 ### Usage
 Run the biped example application:
 ```bash
