@@ -62,3 +62,7 @@ opti.solve_opti(
 # display the result
 opti.plot_animate_all()
 ```
+
+### Solution Visualization
+The optimized solution is visualized as motion and forcesover time for the base and all feet by default, see the following plot:
+![plot_vis.png](img/plot_vis.png)

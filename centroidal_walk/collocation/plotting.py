@@ -238,7 +238,6 @@ def plot_com_and_foot_trajectories_xyz(
 
 
 
-
 	__plt_maximize_window()
 	if show_plot and not show_non_blocking:
 		plt.show()
