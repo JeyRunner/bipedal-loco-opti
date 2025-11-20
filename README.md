@@ -17,7 +17,7 @@ The primary focus if this library is to generate smooth reference locomotion dat
 ## Trajectory Optimization Combined with IK
 The optimized motions can be converted with inverse kinematics to joint trajectories.
 In the following we show an example of the Bolt bipedal robot walking backwards, 
-where we visualize IK joint trajectory of the motions optimized with this library.
+where we visualize the IK joint trajectory of the motions optimized with this library.
 ![bolt_opti_ik.webp](img/bolt_opti_ik.webp)
 
 
@@ -64,5 +64,5 @@ opti.plot_animate_all()
 ```
 
 ### Solution Visualization
-The optimized solution is visualized as motion and forcesover time for the base and all feet by default, see the following plot:
+The optimized solution is visualized as motions and forces over time for the base and all feet, see the following plot:
 ![plot_vis.png](img/plot_vis.png)
