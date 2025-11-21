@@ -64,5 +64,5 @@ opti.plot_animate_all()
 ```
 
 ### Solution Visualization
-The optimized solution is visualized as motions and forces over time for the base and all feet, see the following plot:
+The optimized solution is visualized as motions and forces over time for the base and all feet, see the following plot. Here grey areas denote foot flight phases.
 ![plot_vis.png](img/plot_vis.png)
